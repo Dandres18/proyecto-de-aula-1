@@ -1,0 +1,86 @@
+body{
+background-image: url(phyton\ fondo.png);
+background-size: cover;
+background-attachment: fixed;
+
+backdrop-filter: blur(10px);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.logo{
+    width: 100px;
+    padding-bottom: 5%;
+    
+}
+
+
+.titulo{
+    color: rgb(255, 0, 0);
+}
+ul{
+    display: flex ;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.f1{
+     position: relative;
+     left: 350px;
+    width: 500px;
+
+}
+
+.table1{
+   
+}
+
+
+.presentacion{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.ListaDeTemas{
+    color: rgb(66, 61, 61);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+} 
+
+li a{
+    display: block;
+    text-align: left;
+    padding: 14px 26.2px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ 
+}
+li{
+    float: left;
+}
+
+li a:hover{
+    background-color: rgba(10, 99, 189, 0.342);
+}
+.listajuan{
+list-style:inside; 
+;
+}
+
+.ubicacion{
+
+    position: relative;
+    left: 100px;
+}
+p{
+    color: white;
+}

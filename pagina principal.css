@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(to bottom, hsl(219, 85%, 33%), #61379c); margin: 0; height: 100vh;
+}
+
+.presentacion{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 40px;
+    color: yellow;
+}
+
+.ListaDeTemas{
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+} 
+
+li a{
+    display: block;
+    text-align: left;
+    padding: 14px 26.2px;
+    text-decoration: none;
+    color: yellow;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(47, 202, 202, 0.333);
+}
+li{
+    float: left;
+}
+
+li a:hover{
+    background-color: rgba(0, 17, 34, 0.199);
+}
+
+.skibidi{
+    width: 600px;
+    position:relative;
+
+    left: 350px;
+    height: 500px;
+}
